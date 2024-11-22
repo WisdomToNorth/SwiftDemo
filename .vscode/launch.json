@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftTest}",
+            "name": "Debug SwiftTest",
+            "program": "${workspaceFolder:SwiftTest}/.build/debug/SwiftTest",
+            "preLaunchTask": "swift: Build Debug SwiftTest"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftTest}",
+            "name": "Release SwiftTest",
+            "program": "${workspaceFolder:SwiftTest}/.build/release/SwiftTest",
+            "preLaunchTask": "swift: Build Release SwiftTest"
+        }
+    ]
+}
